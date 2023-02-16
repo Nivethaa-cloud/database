@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title> Triangle Peg </title>
+	<link rel="stylesheet" href="peg.css">
+</head>
+<body>
+<script src="peg.js"></script>
+<table>
+	<tr> 
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv0" name="box0" style="background-color:red;" onclick ="movePass('myDiv0');"> &nbsp;&nbsp;&nbsp;1 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+	</tr>
+	<tr> 
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv1" name="box1" style="background-color:green;" onclick ="movePass('myDiv1');"> &nbsp;&nbsp;&nbsp;2 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv2" name="box2" style="background-color:blue;" onclick ="movePass('myDiv2');"> &nbsp;&nbsp;&nbsp;3 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+	</tr>
+	<tr> 
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv3" name="box3" style="background-color:yellow;" onclick ="movePass('myDiv3');"> &nbsp;&nbsp;&nbsp;4 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv4" name="box4" style="background-color:red;" onclick ="movePass('myDiv4');"> &nbsp;&nbsp;&nbsp;5 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv5" name="box5" style="background-color:green;" onclick ="movePass('myDiv5');"> &nbsp;&nbsp;&nbsp;6 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+	</tr>
+	<tr> 
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv6" name="box6" style="background-color:blue;" onclick ="movePass('myDiv6');"> &nbsp;&nbsp;&nbsp;7 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv7" name="box7" style="background-color:yellow;" onclick ="movePass('myDiv7');"> &nbsp;&nbsp;&nbsp;8 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv8" name="box8" style="background-color:red;" onclick ="movePass('myDiv8');"> &nbsp;&nbsp;&nbsp;9 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv9" name="box9" style="background-color:green;" onclick ="movePass('myDiv9');"> &nbsp;&nbsp;&nbsp;10 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+	</tr>
+	<tr> 
+		<td> <div id="myDiv10" name="box10" style="background-color:blue;" onclick ="movePass('myDiv10');"> &nbsp;&nbsp;&nbsp;11 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv11" name="box11" style="background-color:yellow;" onclick ="movePass('myDiv11');"> &nbsp;&nbsp;&nbsp;12 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv12" name="box12" style="background-color:red;" onclick ="movePass('myDiv12');"> &nbsp;&nbsp;&nbsp;13 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv13" name="box13" style="background-color:green;" onclick ="movePass('myDiv13');"> &nbsp;&nbsp;&nbsp;14 </div> </td>
+		<td> <div id="myDiv"> </div> </td>
+		<td> <div id="myDiv14" name="box14" style="background-color:blue;" onclick ="movePass('myDiv14');"> &nbsp;&nbsp;&nbsp;15 </div> </td>
+	</tr>
+</table>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="button" type="button" onclick ="gameReset()">Reset</button> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="button" type="button" id="randomHole" onclick ="randomHole()">Random hole</button>
+</body>
+</html>
